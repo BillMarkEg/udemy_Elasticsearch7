@@ -900,7 +900,11 @@ curl -XGET 127.0.0.1:9200/movies/_search?pretty -d '
 * this is also google style
 
 ### Lecture 40. N-Grams, Part 2
-
+Note that when we use text in search if only one word matches will be showen in result
+but in case of searcha as you type all words should be matched so its unique in this case
+ex when we search about  "brown b"
+in text => brown bear & brown man (noting that brown man will come last but it will come )
+in search as you type => only brown bear  
 * reindex
 
 ### Lecture 43. Importing Data with a Script
